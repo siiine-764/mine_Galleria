@@ -6,6 +6,8 @@ import Gallery from 'pages/Gallery'
 import Slideshow from 'pages/Slideshow'
 import Header from 'components/organisms/Header/'
 import LightBox from 'components/organisms/Lightbox'
+import Login from './components/login/Login'
+import Register from './components/login/Register'
 
 function App(): JSX.Element {
   return (
@@ -20,6 +22,12 @@ function App(): JSX.Element {
           </Route>
           <Route path="/slideshow">
             <Slideshow />
+          </Route>
+          <Route path="/login">
+            <Login />
+          </Route>
+          <Route path="/register">
+            <Register />
           </Route>
         </Switch>
       </AnimatePresence>
