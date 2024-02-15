@@ -48,7 +48,6 @@ const Login = () => {
               value={email}
               onChange={e => setEmail(e.target.value)}
             />
-
             <TextField
               margin="normal"
               required
@@ -60,7 +59,6 @@ const Login = () => {
               value={password}
               onChange={e => setPassword(e.target.value)}
             />
-
             <Button
               fullWidth
               variant="contained"
@@ -69,6 +67,11 @@ const Login = () => {
             >
               Login
             </Button>
+            <a href="http://localhost:5000/auth/github">Sign Up with Github</a>
+            <br></br>
+            <a href="http://localhost:5000/auth/facebook">
+              Sign Up with Facebook
+            </a>
             <Grid container justifyContent="flex-end">
               <Grid item>
                 <Link to="/register">Don't have an account? Register</Link>
