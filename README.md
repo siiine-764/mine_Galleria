@@ -41,3 +41,6 @@ npm install && npm start
 - Redux Toolkit
 - TypeScript
 - Mobile-first workflow
+
+
+ export NODE_OPTIONS=--openssl-legacy-provider
